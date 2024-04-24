@@ -2,6 +2,9 @@
 
 - A purely experimental **OCI** **R**untime in **R**ust.
 - The goal is to be able to run an OCI image.
+- First let's try to execute something:
+    - `cargo run -- execute echo "Hello Sailor!"`
+    - more interesting `cargo run -- execute /bin/sh`
 
 # Links
 
